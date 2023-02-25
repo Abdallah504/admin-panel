@@ -1,8 +1,8 @@
 class FirebaseConfigurations{
-  static const _apiKey = "api key";
-  static const _projectId = "projectId";
-  static const _messagingSenderId = "MSID";
-  static const _appId = "appID";
+  static const _apiKey = "api keyy";
+  static const _projectId = "projectIdd";
+  static const _messagingSenderId = "MSIDD";
+  static const _appId = "appIDD";
 
 
 

@@ -19,7 +19,7 @@ void main() async{
        appId: _configurations.appId, 
        messagingSenderId: _configurations.messagingSenderId,
         projectId: _configurations.projectId,
-        storageBucket: "storageBucket")
+        storageBucket: "storageBuckett")
   );
   
   runApp(const MyApp());
