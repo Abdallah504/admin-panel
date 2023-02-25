@@ -19,14 +19,9 @@ void main() async{
        appId: _configurations.appId, 
        messagingSenderId: _configurations.messagingSenderId,
         projectId: _configurations.projectId,
-        storageBucket: "talabya-20362.appspot.com")
+        storageBucket: "storageBucket")
   );
-  await FirebaseAppCheck.instance
-      // Your personal reCaptcha public key goes here:
-      .activate(
-    webRecaptchaSiteKey: '6LcWAYYkAAAAAIvxTfdOlbesHYUzPKTYzkFldbxg'
-    
-  );
+  
   runApp(const MyApp());
 }
 
